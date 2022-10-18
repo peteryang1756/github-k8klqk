@@ -1,15 +1,22 @@
 endi:
-  name: Peter yang
-  title: 雙龍體育團隊
-  url: 
-  image_url: https://i.ibb.co/LxrqRtB/1-1.png
-slorber:
-  name: Peter yang
-  title: 雙龍體育團隊
-  url: 
-  image_url: https://i.ibb.co/LxrqRtB/1-1.png
+  name: Endilie Yacop Sucipto
+  title: Maintainer of Docusaurus
+  url: https://github.com/endiliey
+  image_url: https://github.com/endiliey.png
+
+yangshun:
+  name: Yangshun Tay
+  title: Front End Engineer @ Facebook
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
 
 slorber:
+  name: Sébastien Lorber
+  title: Docusaurus maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+
+peter:
   name: Peter yang
   title: 雙龍體育團隊
   url: 

@@ -77,7 +77,7 @@ export default function Home() {
               <a
                 className="_6 w-inline-block"
                 data-w-id="d90f4fb2-2134-be56-aa63-3fe5d940d2aa"
-                href="#"
+                href="#123"
               >
                 <div className="button-face">
                   <div className="button-text">我們的運動</div>

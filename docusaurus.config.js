@@ -132,4 +132,4 @@ plugins: [
     require.resolve('@cmfcmf/docusaurus-search-local')
   ]
 };
-module.exports = config;
+

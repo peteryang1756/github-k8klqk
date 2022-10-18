@@ -267,7 +267,7 @@ export default function Home() {
           </div>
         </div>
         <div className="arrow-wrap">
-          <img alt="" className="arrow-image" src="images/arrow-right-02.svg" />
+          <img alt="" className="arrow-image" src="https://74-rho.vercel.app/images/arrow-right-02.svg" />
           <img
             alt=""
             className="arrow-image-mobile-02"

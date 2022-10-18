@@ -267,11 +267,11 @@ export default function Home() {
           </div>
         </div>
         <div className="arrow-wrap">
-          <img alt="" className="arrow-image" src="https://74-rho.vercel.app/images/arrow-right-02.svg" />
+          <img alt="" className="arrow-image" src="https://site123-git-main-ssangyongsports.vercel.app/images/arrow-right.svg" />
           <img
             alt=""
             className="arrow-image-mobile-02"
-            src="https://74-rho.vercel.app/images/arrow-down-02.svg"
+            src="https://site123-git-main-ssangyongsports.vercel.app/images/arrow-down-02.svg"
           />
         </div>
         <div className="statistic-circle-wrap">

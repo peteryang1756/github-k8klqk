@@ -52,18 +52,6 @@ const config = {
       }),
     ],
   ],
-plugins: [
-    [
-      plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
-
-      {
-        hashed: true,
-        indexDocs: true,
-        indexBlog: true,
-        language: "zh-tw",
-      },
-    ],
-  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

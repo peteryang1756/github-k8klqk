@@ -10,7 +10,6 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-   <link href="css/peters-sublime-site-bbd4ed.stylesheet.5b49cbab0.css" rel="stylesheet" type="text/css" />
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>

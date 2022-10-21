@@ -94,7 +94,7 @@ const config = {
             position: 'left',
           },
           {
-            href: '/',
+            href: '/p',
             label: '隱私政策',
             position: 'left',
           },
@@ -156,7 +156,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 雙龍體育, org. 維護團隊：雙龍體育.`,
       },
       prism: {
         theme: lightCodeTheme,

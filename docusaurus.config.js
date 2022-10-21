@@ -94,8 +94,13 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://status.ssangyongsports.eu.org/',
-            label: '狀態',
+            href: '/',
+            label: '隱私政策',
+            position: 'left',
+          },
+          {
+            href: '/',
+            label: '服務條款',
             position: 'left',
           },
         ],
@@ -104,11 +109,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+          title: '體育',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                  label: '雙龍職棒',
+                  href: 'https://slbtw.cf',
+              },
+              {
+                label: '雙龍職籃',
+                href: 'https://sbatw.ml',
+              },
+              {
+                label: '雙龍足球',
+                href: '/',
               },
             ],
           },
@@ -138,7 +151,7 @@ const config = {
               },
               {
                 label: '聯繫',
-                href: '/c',
+                href: '/',
               },
             ],
           },

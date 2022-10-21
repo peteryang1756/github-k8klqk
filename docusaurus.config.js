@@ -108,7 +108,8 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          title: '體育',
+           {
+            title: '體育體育',
             items: [
               {
                   label: '雙龍職棒',

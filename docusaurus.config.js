@@ -105,53 +105,45 @@ const config = {
           },
         ],
       },
-      footer: {
+       footer: {
         style: 'dark',
         links: [
-           {
-            title: '體育體育',
+          {
+            title: 'Docs',
             items: [
               {
-                  label: '雙龍職棒',
-                  href: 'https://slbtw.cf',
-              },
-              {
-                label: '雙龍職籃',
-                href: 'https://sbatw.ml',
-              },
-              {
-                label: '雙龍足球',
-                href: '/',
+                label: 'Tutorial',
+                to: '/docs/intro',
               },
             ],
           },
           {
-            title: '組織',
+            title: 'Community',
             items: [
               {
-                label: 'blog',
-                href: '/blog',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: '狀態',
-                href: 'https://status.ssangyongsports.eu.org/',
-              },              
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
             ],
           },
           {
-            title: '幫助',
+            title: 'More',
             items: [
               {
-                label: '幫助',
-                href: 'https://help.ssangyongsports.eu.org/',
+                label: 'Blog',
+                to: '/blog',
               },
               {
-                label: '社區',
-                href: 'https://discuss.ssangyongsports.eu.org/',
-              },
-              {
-                label: '聯繫',
-                href: '/c',
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },

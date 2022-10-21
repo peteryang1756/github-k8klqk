@@ -94,8 +94,13 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://status.ssangyongsports.eu.org/',
-            label: '狀態',
+            href: '/p',
+            label: '隱私政策',
+            position: 'left',
+          },
+          {
+            href: '/t',
+            label: '服務條款',
             position: 'left',
           },
         ],
@@ -103,42 +108,49 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
+          title: '體育',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                  label: '雙龍職棒',
+                  href: 'https://slbtw.cf',
+              },
+              {
+                label: '雙龍職籃',
+                href: 'https://sbatw.ml',
+              },
+              {
+                label: '雙龍足球',
+                href: '/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '組織',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'blog',
+                href: '/blog',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: '狀態',
+                href: 'https://status.ssangyongsports.eu.org/',
+              },              
             ],
           },
           {
-            title: 'More',
+            title: '幫助',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '幫助',
+                href: 'https://help.ssangyongsports.eu.org/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '社區',
+                href: 'https://discuss.ssangyongsports.eu.org/',
+              },
+              {
+                label: '聯繫',
+                href: '/c',
               },
             ],
           },

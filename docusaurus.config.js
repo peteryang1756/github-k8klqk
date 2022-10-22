@@ -157,12 +157,14 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} 雙龍體育, org. 維護團隊：雙龍體育.`,
       },
-      prism: {
+       prism: {
         theme: lightCodeTheme,
-          colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
+        darkTheme: lightCodeTheme
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false
       },
     }),
 };

@@ -163,9 +163,8 @@ const config = {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: false,
-    },
-  },
+      },
+    }),
 };
-
 
 module.exports = config;

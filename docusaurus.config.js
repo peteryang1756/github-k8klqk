@@ -99,7 +99,7 @@ const config = {
             position: 'left',
           },
           {
-            href: '/',
+            href: '/t',
             label: '服務條款',
             position: 'left',
           },

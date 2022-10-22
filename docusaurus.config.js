@@ -53,7 +53,7 @@ const config = {
     ],
   ],
   themeConfig:
-      colorMode: {
+    colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: false,

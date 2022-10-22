@@ -53,6 +53,13 @@ const config = {
     ],
   ],
   themeConfig:
+      colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+  },
+};
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {

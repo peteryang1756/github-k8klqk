@@ -1,7 +1,7 @@
 ---
 title: 服務條款
 description: 1.您使用本服務之一切行為必須符合當地或國際相關法令規範；對於使用者的一切行為，您須自行負擔全部責任。 2.您同意絕不為非法之目的或以非法方式使用本服務，與確實遵守 ...
-hide_table_of_contents: false
+hide_table_of_contents: true
 ---
 # 服務條款
 一、會員服務條款

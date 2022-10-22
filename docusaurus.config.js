@@ -159,8 +159,13 @@ const config = {
       },
       prism: {
         theme: lightCodeTheme,
-      },
-    }),
+          colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+  },
 };
+
 
 module.exports = config;

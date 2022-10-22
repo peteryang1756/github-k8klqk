@@ -106,7 +106,7 @@ const config = {
       },
             algolia: {
       apiKey: "7640fd8ca3b8204bd58b654f71607ab5",
-      indexName: "site",
+      indexName: "docs",
       appId: "8YELX4XDEG",
       // Optional: see doc section bellow
       contextualSearch: true,

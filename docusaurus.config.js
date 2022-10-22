@@ -46,6 +46,11 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+       },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -53,12 +58,6 @@ const config = {
     ],
   ],
   themeConfig:
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-    },
-  },
-};
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {

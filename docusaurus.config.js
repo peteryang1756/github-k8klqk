@@ -56,8 +56,8 @@ const config = {
     ({
       navbar: {
         logo: {
-          alt: 'M雙龍體育 Logo',
-          src: 'https://www.ssangyongsports.eu.org/images/logo2.png',
+          alt: '雙龍體育 Logo',
+          src: 'https://img.ssangyongsports.eu.org/logo2.png',
         },
         items: [
           {

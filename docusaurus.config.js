@@ -45,6 +45,8 @@ const config = {
           editUrl:
             'https://github.com/ssangyongsports/github-k8klqk/tree/main/blog',
         },
+                  editLocalizedFiles: false,
+          editCurrentVersion: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

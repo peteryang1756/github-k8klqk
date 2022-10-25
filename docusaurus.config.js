@@ -35,17 +35,12 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ssangyongsports/github-k8klqk/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
-          editLocalizedFiles: false,
-          editCurrentVersion: false,
+
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ssangyongsports/github-k8klqk/tree/main/blog',
+          // Remove this to remove the "edit this page" links.         
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

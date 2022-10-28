@@ -103,7 +103,7 @@ const config = {
         ],
       },
           announcementBar: {
-      id: 'support_us',
+      id: 'announcementBar-2',
       content:
         'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
       backgroundColor: '#fafbfc',

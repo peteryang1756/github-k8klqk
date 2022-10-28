@@ -64,6 +64,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+
           {
             href: 'https://slbtw.cf/',
             label: '雙龍職棒',
@@ -101,6 +102,14 @@ const config = {
           },
         ],
       },
+          announcementBar: {
+      id: 'support_us',
+      content:
+        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: false,
+    },
             algolia: {
       apiKey: "7640fd8ca3b8204bd58b654f71607ab5",
       indexName: "docs",
@@ -114,7 +123,7 @@ const config = {
       //... other Algolia params
     },
       footer: {
-        style: 'dark',
+        style: 'light-+-',
         links: [
           {
           title: '體育',

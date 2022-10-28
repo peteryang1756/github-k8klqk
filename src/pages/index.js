@@ -54,17 +54,8 @@ export default function Home() {
               <strong className="bold-text-10">組成</strong>
               <span>
                 <strong className="bold-text-6">最棒</strong>
-              </span>
-              <strong>的</strong>
-              <span className="text-span-6">
-                <strong
-                  className="typer"
-                  data-delay={100}
-                  data-delete-delay={1000}
-                  data-words="體育組織,職籃組織,職棒組織"
-                  id="main"
-                >
-                  體育
+              </span>             
+                  體育組織
                 </strong>
               </span>
               <span className="cursor">
@@ -289,8 +280,6 @@ export default function Home() {
     </div>
   </div>
 </>
-<script async="" src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-
       </main>
     </Layout>
   );

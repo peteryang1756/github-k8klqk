@@ -99,7 +99,7 @@ const config = {
           announcementBar: {
       id: 'announcementBar-2',
       content:
-        '新網站已正式發布,反饋 <a target="_blank" rel="noopener noreferrer" href="https://discuss.ssangyongsports.eu.org/threads/%E6%96%B0%E7%B6%B2%E7%AB%99%E6%B8%AC%E8%A9%A6%E4%B8%AD.20/">連結a>',
+        '新網站已正式發布,反饋 <a target="_blank" rel="noopener noreferrer" href="https://discuss.ssangyongsports.eu.org/threads/%E6%96%B0%E7%B6%B2%E7%AB%99%E6%B8%AC%E8%A9%A6%E4%B8%AD.20/">連結',
       backgroundColor: '#84C1FF',
       textColor: '#091E42',
       isCloseable: false,

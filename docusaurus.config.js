@@ -123,7 +123,7 @@ const config = {
       //... other Algolia params
     },
       footer: {
-        style: 'light-+-',
+        style: 'light',
         links: [
           {
           title: '體育',

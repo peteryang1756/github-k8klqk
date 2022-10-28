@@ -57,12 +57,6 @@ const config = {
           src: 'https://img.ssangyongsports.eu.org/logo2.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
 
           {

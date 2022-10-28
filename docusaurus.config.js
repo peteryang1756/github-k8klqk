@@ -89,7 +89,10 @@ const config = {
             label: '狀態',
             position: 'left',
           },
-          {to: '/p', label: '隱私政策', position: 'left'},
+          {
+            href: '/p',
+            label: '隱私政策',
+            position: 'left',
           },
           {
             href: '/t',

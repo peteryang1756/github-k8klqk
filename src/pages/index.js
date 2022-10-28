@@ -55,7 +55,7 @@ export default function Home() {
               <span>
                 <strong className="bold-text-6">最棒</strong>
              </span>
-              <strong className="bold-text-10">體育組織組織</strong>
+              <strong className="bold-text-10">體育組織</strong>
               <span>
               </span>
               <span className="cursor">

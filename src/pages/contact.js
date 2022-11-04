@@ -12,7 +12,7 @@ export default function Hello() {
           height: '50vh',
           fontSize: '20px',
         }}>
-        <p><iframe
+        <iframe
   src="https://ssport.surveysparrow.com/s/Contact-Form/tt-viQ3pV8AhXTXds2ypscmCZ?"
   style={{
     position: "fixed",

@@ -32,7 +32,6 @@ export default function Hello() {
   Your browser doesn't support iframes
 </iframe>
 
-<p>
       </div>
     </Layout>
   );

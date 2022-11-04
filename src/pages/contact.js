@@ -13,8 +13,8 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-          <script id="SS_SCRIPT">function sparrowLaunch(opts){var e="ss-widget",t="script",a=document,r=window,l=localStorage;var s,n,c,rm=a.getElementById('SS_SCRIPT');r.SS_WIDGET_TOKEN="tt-rXeAftBoHPXvEapvtFarHk";r.SS_ACCOUNT="ssport.surveysparrow.com";r.SS_SURVEY_NAME="Contact-Form";if(!a.getElementById(e) && !l.getItem('removed-ss-widget-tt-rXeAftBoHPXvEapvtFarHk')){var S=function(){S.update(arguments)};S.args=[];S.update=function(e){S.args.push(e)};r.SparrowLauncher=S;s=a.getElementsByTagName(t);c=s[s.length-1];n=a.createElement(t);n.type="text/javascript";n.async=!0;n.id=e;n.src=["https://","ssport.surveysparrow.com/widget/",r.SS_WIDGET_TOKEN,"?","customParams=",JSON.stringify(opts)].join("");c.parentNode.insertBefore(n,c);r.SS_VARIABLES=opts;rm.parentNode.removeChild(rm);}};</script>
-  <script>sparrowLaunch({/*add custom params here*/})</script>
+          <iframe src="https://ssport.surveysparrow.com/s/Contact-Form/tt-viQ3pV8AhXTXds2ypscmCZ?" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+        iframe>
 <p>
       </div>
     </Layout>

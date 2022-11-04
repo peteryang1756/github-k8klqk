@@ -210,11 +210,12 @@ export default function Home() {
             src="https://74-rho.vercel.app/images/62d56332e87b47c78b67ac6c_taxi-basketball.png"
             width={398}
           />
-        </div>
-  <p>&nbsp;</p>
+              <p>&nbsp;</p>
   <p>
     <br />
   </p>
+        </div>
+  
         <div className="content-block-right">
           <div className="content-wrap">
             <p className="title">sba</p>

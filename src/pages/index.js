@@ -211,13 +211,10 @@ export default function Home() {
             width={398}
           />
         </div>
-<>
   <p>&nbsp;</p>
   <p>
     <br />
   </p>
-</>
-
         <div className="content-block-right">
           <div className="content-wrap">
             <p className="title">sba</p>

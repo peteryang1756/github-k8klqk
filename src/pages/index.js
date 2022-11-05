@@ -34,10 +34,6 @@ export default function Home() {
       <main>
       <>
         <Hero />
-        </div>
-      </div>
-    </div>
-  </div>
   <div className="section-content">
     <div className="container space-below" id={123}>
       <div className="title-wrap-left">

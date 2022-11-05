@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Hero from "../components/Hero";
-import Pulls from "../components/Pulls.js";
+import two from "../components/Pulls.js";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -34,7 +34,7 @@ export default function Home() {
       <main>
       <>
       <Hero />
-         <Pulls />
+         <two />
          <div className="container">
       <div className="column-wrap-reversed">
         <div className="image-block">

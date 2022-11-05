@@ -22,19 +22,27 @@ export default function Hero() {
               to="#123"
             >
               我們的運動
-             </Link>
+            </Link>
+            <Link
+              className="button button--secondary button--lg"
+              to="https://github.com/gotenberg/gotenberg"
+            >
               <img
                 className={styles.githubIcon}
                 src={useBaseUrl("/img/github.svg")}
                 alt="GitHub Logo"
               />{" "}
               <span className={styles.githubButtonText}>GitHub</span>
-            </Link>            
+            </Link>
+            <p className="padding-top--md">
+              Available on <strong>amd64</strong>, <strong>arm64</strong>,{" "}
+              <strong>armhf</strong>, and <strong>i386</strong> architectures
+            </p>
           </div>
           <div className="col col--6">
             <img
               className={styles.logo}
-              src={useBaseUrl("/img/logo_jed.png")}
+              src={useBaseUrl("https://74-rho.vercel.app/images/undraw_fitness_stats_sht6.svg")}
               alt="Gotenberg Hero Logo"
             />
           </div>

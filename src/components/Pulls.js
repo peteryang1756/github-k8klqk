@@ -22,7 +22,7 @@ export default function Pulls() {
           <img
             alt=""
             className="service-icon"
-            src="images/baseball-16.png"
+            src="https://74-rho.vercel.app/images/baseball-16.png"
             width={75}
           />
           <div className="card-content-wrap">
@@ -54,7 +54,7 @@ export default function Pulls() {
           <img
             alt=""
             className="service-icon"
-            src="images/889455.png"
+            src="https://74-rho.vercel.app/images/889455.png"
             width={75}
           />
           <div className="card-content-wrap">
@@ -78,7 +78,7 @@ export default function Pulls() {
           <img
             alt=""
             className="service-icon"
-            src="images/53283.png"
+            src="https://74-rho.vercel.app/images/53283.png"
             width={75}
           />
           <div className="card-content-wrap">

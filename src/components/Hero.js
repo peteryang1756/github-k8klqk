@@ -55,7 +55,6 @@ export default function Hero() {
               alt="ssport"
             />
           </div>
-        </div>
       </div>
     </header>
   );

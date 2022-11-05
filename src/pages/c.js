@@ -13,14 +13,14 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-<iframe
-  width="100%"
-  height="formHeight"
-  id="iframe"
-  scrolling="no"
-  src="https://ssport.surveysparrow.com/s/Contact-Form/tt-viQ3pV8AhXTXds2ypscmCZ?"
-  style={{ border: 0, overflow: "hidden", height: 2338 }}
-/>
+<div formsappId="63666da4e5740e14f43805dc"></div>
+			<script src="https://my.forms.app/static/iframe.js" type="text/javascript"></script>
+			<script>
+				new formsapp('63666da4e5740e14f43805dc', {
+					width: '100%',
+					height: 'formHeight'
+				});
+			</script>
 
         </p>
       </div>

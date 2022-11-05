@@ -10,10 +10,25 @@ export default function Hero() {
       <div className="container">
         <div className="row">
           <div className="col col--6">
-            <h1>
-              我們的使命是將雙龍體育組成最棒 <br />
-              <span className="highlight">體育組織</span>
-            </h1>
+                          <strong className="bold-text-9">我們的</strong>
+              <span>
+                <strong className="bold-text">使命</strong>
+              </span>
+              <strong className="bold-text-9">是將</strong>
+              <span>
+                <strong className="bold-text-3">雙</strong>
+              </span>
+              <strong className="bold-text-3">龍</strong>
+              <span>
+                <strong className="bold-text-3">體</strong>
+                <strong className="bold-text-3">育</strong>
+              </span>
+              <strong className="bold-text-10">組成</strong>
+              <span>
+                <strong className="bold-text-6">最棒</strong>
+             </span>
+              <strong className="bold-text-10">體育組織</strong>
+              <span>
             <Link
               className={clsx(
                 "button button--primary button--lg",

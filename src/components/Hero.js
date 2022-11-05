@@ -11,10 +11,10 @@ export default function Hero() {
         <div className="row">
           <div className="col col--6">
             <h1>
-             我們的使命是將雙龍體育組成最棒 <br />
+              我們的使命是將雙龍體育組成最棒 <br />
               <span className="highlight">體育組織</span>
             </h1>
-                        <Link
+            <Link
               className={clsx(
                 "button button--primary button--lg",
                 styles.getStartedButton
@@ -22,11 +22,19 @@ export default function Hero() {
               to="#123"
             >
               我們的運動
+             </Link>
+              <img
+                className={styles.githubIcon}
+                src={useBaseUrl("/img/github.svg")}
+                alt="GitHub Logo"
+              />{" "}
+              <span className={styles.githubButtonText}>GitHub</span>
             </Link>            
+          </div>
           <div className="col col--6">
             <img
               className={styles.logo}
-              src={useBaseUrl("https://74-rho.vercel.app/images/undraw_fitness_stats_sht6.svg")}
+              src={useBaseUrl("/img/logo_jed.png")}
               alt="Gotenberg Hero Logo"
             />
           </div>

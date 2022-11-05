@@ -14,11 +14,14 @@ export default function Hello() {
         }}>
         <p>
 <iframe
-  src="https://ssport.surveysparrow.com/s/Contact-Form/tt-viQ3pV8AhXTXds2ypscmCZ?"
   width="100%"
   height="800px"
-  style={{ border: "1px solid black" }}
-></iframe>
+  id="iframe"
+  scrolling="no"
+  src="https://ssport.surveysparrow.com/s/Contact-Form/tt-viQ3pV8AhXTXds2ypscmCZ?"
+  style={{ border: 0, overflow: "hidden", height: 2338 }}
+/>
+
         </p>
       </div>
     </Layout>

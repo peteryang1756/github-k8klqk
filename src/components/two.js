@@ -4,7 +4,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-export default function Hero() {
+export default function TWO() {
   return (
     <header className={styles.hero}>
 <div className="header">

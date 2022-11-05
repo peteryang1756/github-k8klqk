@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Hero from "../components/Hero";
-import two from "../components/two.js";
+import TWO from "../components/two.js";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();

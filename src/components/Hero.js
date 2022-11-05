@@ -64,7 +64,7 @@ export default function Hero() {
         <img
           alt=""
           className="hero-image"
-          src="images/undraw_fitness_stats_sht6.svg"
+          src="https://74-rho.vercel.app/images/undraw_fitness_stats_sht6.svg"
         />
       </div>
     </div>

@@ -15,8 +15,8 @@ export default function Hello() {
         <p>
 <iframe
   src="https://ssport.surveysparrow.com/s/Contact-Form/tt-viQ3pV8AhXTXds2ypscmCZ?"
-  width="1000"
-  height="1000"
+  width="1900"
+  height="656"
   style={{ border: "1px solid black" }}
 ></iframe>
         </p>

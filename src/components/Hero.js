@@ -54,8 +54,6 @@ export default function Hero() {
               src={useBaseUrl("https://74-rho.vercel.app/images/undraw_fitness_stats_sht6.svg")}
               alt="ssport"
             />
-          </div>
-      </div>
     </header>
   );
 }

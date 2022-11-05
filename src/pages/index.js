@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Hero from "../components/Hero";
 
 
 function HomepageHeader() {
@@ -32,56 +33,7 @@ export default function Home() {
       description="​雙龍職籃 ... 籃球，為一種由兩隊參與，在一個長方形籃球場進行的球類運動。每隊出場5名隊員，可將球向任何方向傳、投、拍、滾或運，目的是將籃球投入對方球籃得分，並阻止 ...">
       <main>
       <>
-  <div className="header">
-    <div className="container">
-      <div className="hero-content">
-        <div className="hero-block">
-          <div className="content-block-hero">
-            <h1 className="heading-2">
-              <strong className="bold-text-9">我們的</strong>
-              <span>
-                <strong className="bold-text">使命</strong>
-              </span>
-              <strong className="bold-text-9">是將</strong>
-              <span>
-                <strong className="bold-text-3">雙</strong>
-              </span>
-              <strong className="bold-text-3">龍</strong>
-              <span>
-                <strong className="bold-text-3">體</strong>
-                <strong className="bold-text-3">育</strong>
-              </span>
-              <strong className="bold-text-10">組成</strong>
-              <span>
-                <strong className="bold-text-6">最棒</strong>
-             </span>
-              <strong className="bold-text-10">體育組織</strong>
-              <span>
-              </span>
-              <span className="cursor">
-                <strong className="cursor" data-owner="main"></strong>
-              </span>
-            </h1>
-            <div className="button-wrap-hero">
-              <a
-                className="_6 w-inline-block"
-                data-w-id="d90f4fb2-2134-be56-aa63-3fe5d940d2aa"
-                href="#123"
-              >
-                <div className="button-face">
-                  <div className="button-text">我們的運動</div>
-                </div>
-                <div className="button-side"></div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="hero-image-wrap">
-          <img
-            alt=""
-            className="hero-image"
-            src="https://74-rho.vercel.app/images/undraw_fitness_stats_sht6.svg"
-          />
+        <Hero />
         </div>
       </div>
     </div>

@@ -36,7 +36,12 @@ export default function Home() {
       <>
         <Hero />
          <two />
- 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</>
       </main>
     </Layout>
   );

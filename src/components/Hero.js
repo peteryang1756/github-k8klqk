@@ -34,10 +34,7 @@ export default function Hero() {
               />{" "}
               <span className={styles.githubButtonText}>GitHub</span>
             </Link>
-            <p className="padding-top--md">
-              Available on <strong>amd64</strong>, <strong>arm64</strong>,{" "}
-              <strong>armhf</strong>, and <strong>i386</strong> architectures
-            </p>
+           
           </div>
           <div className="col col--6">
             <img

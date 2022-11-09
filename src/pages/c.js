@@ -35,7 +35,7 @@ export default function Hello() {
         className="form-control"
         type="text"
         name="name"
-        defaultValue="Roscoe Jones"
+        placeholder="peter"
       />
       <label>電子郵件</label>
       <input
@@ -64,6 +64,15 @@ export default function Hello() {
     </div>
     <button type="submit">Submit</button>
   </form>
+   <>
+  <p>&nbsp;</p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+</>
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 </div>
 

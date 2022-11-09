@@ -98,6 +98,11 @@ const config = {
             label: '服務條款',
             position: 'left',
           },
+          {
+            href: '/c',
+            label: '聯繫',
+            position: 'left',
+          },
         ],
       },
           announcementBar: {

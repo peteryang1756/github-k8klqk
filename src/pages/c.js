@@ -13,7 +13,17 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-          <div className="example-form example-form_before">
+   <>
+  <p>&nbsp;</p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+</>
+      
+    <div className="example-form example-form_before">
   <div className="example-title">聯絡</div>
   <form
     method="post"
@@ -54,7 +64,7 @@ export default function Hello() {
     </div>
     <button type="submit">Submit</button>
   </form>
-  <link rel="stylesheet" href="https://valid-form.pageclip.co/site/style.css" />
+  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 </div>
 
         </p>

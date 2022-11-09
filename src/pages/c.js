@@ -36,6 +36,7 @@ export default function Hello() {
         type="text"
         name="name"
         placeholder="peter"
+       required
       />
       <label>電子郵件</label>
       <input
@@ -45,7 +46,8 @@ export default function Hello() {
         name="email"
         data-valuemissing="Need an email!"
         data-patternmismatch="Only a and b characters allowed!"
-        value="bob@omg.com"
+        placeholder="test@test.com"
+       required
       />
     </div>
     <div className="form-group">
@@ -60,6 +62,7 @@ export default function Hello() {
         data-patternmismatch="Plz only a and b characters!"
         placeholder="Tell me a story!"
         defaultValue={""}
+       required
       />
     </div>
     <button type="submit">Submit</button>

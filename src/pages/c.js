@@ -45,7 +45,7 @@ export default function Hello() {
         name="email"
         data-valuemissing="Need an email!"
         data-patternmismatch="Only a and b characters allowed!"
-        placeholder="a@b.com"
+        value="bob@omg.com"
       />
     </div>
     <div className="form-group">

@@ -101,7 +101,7 @@ export default function Hello() {
   </p>
 </>
 
-  <link rel="stylesheet" href="https://valid-form.pageclip.co/site/style.css" />
+  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 </div>
 
         </p>

@@ -55,7 +55,7 @@ export default function Hello() {
       <textarea
         required=""
         className="form-control"
-        name="story"
+        name="內容"
         pattern="[ab ]+"
         rows={4}
         data-valuemissing="Write me a story plz"
@@ -76,7 +76,7 @@ export default function Hello() {
     <br />
   </p>
 </>
-  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
+  <link rel="stylesheet" href="https://valid-form.pageclip.co/site/style.css" />
 </div>
 
         </p>

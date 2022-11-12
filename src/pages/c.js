@@ -66,6 +66,7 @@ export default function Hello() {
     </form>
   </div>
 </div>
+<link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
         </p>
       </div>
     </Layout>

@@ -33,6 +33,22 @@ export default function Hello() {
   <div class="formbold-form-wrapper">
     <form action="https://formbold.com/s/FORM_ID" method="POST">
       <div class="formbold-mb-5">
+        <>
+  <p>&nbsp;</p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+</>
+
         <label for="name" class="formbold-form-label"> Full Name </label>
         <input
           type="text"
@@ -78,10 +94,6 @@ export default function Hello() {
 
       <div>
         <button class="formbold-btn">Submit</button>
-      </div>
-    </form>
-  </div>
-</div>
 <>
   <p>&nbsp;</p>
   <p>
@@ -97,6 +109,11 @@ export default function Hello() {
     <br />
   </p>
 </>
+      </div>
+    </form>
+  </div>
+</div>
+
 
 <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
         </p>

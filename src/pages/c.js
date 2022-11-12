@@ -66,7 +66,6 @@ export default function Hello() {
     </form>
   </div>
 </div>
-<style>
         </p>
       </div>
     </Layout>

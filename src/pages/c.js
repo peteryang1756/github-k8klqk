@@ -35,15 +35,7 @@ export default function Hello() {
   </p>
 </>
      
-    <div className="example-form example-form_before">
-  <div className="example-title">聯絡</div>
-  <form
-    method="post"
-    action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
-  >
-    <div className="form-group">
-      <label>名稱</label>
-      
+    
     {/* Author: FormBold Team */}
     {/* Learn More: https://formbold.com */}
     <div className="formbold-form-wrapper">

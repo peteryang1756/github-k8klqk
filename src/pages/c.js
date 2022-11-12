@@ -127,7 +127,7 @@ export default function Hello() {
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 </div>
 
-        </p>
+        
       </div>
     </Layout>
   );

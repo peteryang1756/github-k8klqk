@@ -63,6 +63,26 @@ export default function Hello() {
           />
         </div>
         <div className="formbold-mb-5">
+<>
+  <div className="formbold-main-wrapper">
+    {/* Author: FormBold Team */}
+    {/* Learn More: https://formbold.com */}
+    <div className="formbold-form-wrapper">
+      <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <div className="formbold-mb-5">
+          <label htmlFor="name" className="formbold-form-label">
+            {" "}
+            Full Name{" "}
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            className="formbold-form-input"
+          />
+        </div>
+        <div className="formbold-mb-5">
           <label htmlFor="email" className="formbold-form-label">
             {" "}
             Email Address{" "}
@@ -110,6 +130,7 @@ export default function Hello() {
   </div>
   <style dangerouslySetInnerHTML={{ __html: "\n" }} />
 </>
+
 
 
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />

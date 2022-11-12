@@ -14,8 +14,6 @@ export default function Hello() {
         }}>
         <p>
           <div class="formbold-main-wrapper">
-  <!-- Author: FormBold Team -->
-  <!-- Learn More: https://formbold.com -->
   <div class="formbold-form-wrapper">
     <form action="https://formbold.com/s/FORM_ID" method="POST">
       <div class="formbold-mb-5">

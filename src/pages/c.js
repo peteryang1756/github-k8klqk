@@ -44,62 +44,74 @@ export default function Hello() {
     <div className="form-group">
       <label>名稱</label>
       <input
-        className="form-control"
-        type="text"
-        name="name"
-        placeholder="peter"
-       required
-      />
-      <label>電子郵件</label>
-      <input
-        required=""
-        className="form-control"
-        type="email"
-        name="email"
-        data-valuemissing="Need an email!"
-        data-patternmismatch="Only a and b characters allowed!"
-        placeholder="test@test.com"
-       required
-      />
-    </div>
-    <div className="form-group">
-      <label>內容</label>
-      <textarea
-        required=""
-        className="form-control"
-        name="內容"
-        pattern="[ab ]+"
-        rows={4}
-        data-valuemissing="Write me a story plz"
-        data-patternmismatch="Plz only a and b characters!"
-        placeholder="Tell me a story!"
-        defaultValue={""}
-       required
-      />
-    </div>
-    <button type="submit">Submit</button>
-  </form>
-   <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
 <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
+  <div className="formbold-main-wrapper">
+    {/* Author: FormBold Team */}
+    {/* Learn More: https://formbold.com */}
+    <div className="formbold-form-wrapper">
+      <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <div className="formbold-mb-5">
+          <label htmlFor="name" className="formbold-form-label">
+            {" "}
+            Full Name{" "}
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full Name"
+            className="formbold-form-input"
+          />
+        </div>
+        <div className="formbold-mb-5">
+          <label htmlFor="email" className="formbold-form-label">
+            {" "}
+            Email Address{" "}
+          </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            className="formbold-form-input"
+          />
+        </div>
+        <div className="formbold-mb-5">
+          <label htmlFor="subject" className="formbold-form-label">
+            {" "}
+            Subject{" "}
+          </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Enter your subject"
+            className="formbold-form-input"
+          />
+        </div>
+        <div className="formbold-mb-5">
+          <label htmlFor="message" className="formbold-form-label">
+            {" "}
+            Message{" "}
+          </label>
+          <textarea
+            rows={6}
+            name="message"
+            id="message"
+            placeholder="Type your message"
+            className="formbold-form-input"
+            defaultValue={""}
+          />
+        </div>
+        <div>
+          <button className="formbold-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <style dangerouslySetInnerHTML={{ __html: "\n" }} />
 </>
+
 
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 </div>

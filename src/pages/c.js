@@ -44,7 +44,6 @@ export default function Hello() {
     <div className="form-group">
       <label>名稱</label>
       <input
-<>
   <div className="formbold-main-wrapper">
     {/* Author: FormBold Team */}
     {/* Learn More: https://formbold.com */}

@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Hero from "../components/Hero";
 
 export default function Hello() {
   return (
@@ -14,7 +13,7 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-          <Hero />
+         build
         </p>
       </div>
     </Layout>

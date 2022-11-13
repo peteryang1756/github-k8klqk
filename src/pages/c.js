@@ -105,7 +105,7 @@ export default function Hello() {
 
 </div>
 
-        </p>
+       
       </div>
     </Layout>
   );

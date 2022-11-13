@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import styles from './demo.module.css';
 
 export default function Hello() {
   return (
@@ -34,7 +35,8 @@ export default function Hello() {
     <br />
   </p>
 </>
-     
+   <div className={styles.formwrapper}>
+          <div className={styles.formbox}>  
     <div className="example-form example-form_before">
   <div className="example-title">聯絡</div>
   <form
@@ -101,7 +103,6 @@ export default function Hello() {
   </p>
 </>
 
-  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 </div>
 
         </p>

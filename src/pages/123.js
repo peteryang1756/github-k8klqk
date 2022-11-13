@@ -96,6 +96,8 @@ function Form() {
   
           </div>
         </div>
+          </div>
+        </div>
       </main>
     </Layout>
   );

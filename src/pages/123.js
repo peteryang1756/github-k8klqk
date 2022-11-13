@@ -24,22 +24,6 @@ function Form() {
   <div class="formbold-form-wrapper">
     <form action="https://formbold.com/s/FORM_ID" method="POST">
       <div class="formbold-mb-5">
-        <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-
         <label for="name" class="formbold-form-label"> Full Name </label>
         <input
           type="text"
@@ -85,39 +69,8 @@ function Form() {
 
       <div>
         <button class="formbold-btn">Submit</button>
-<>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
       </div>
-    </form>        />
-      </div>
-
-      <div class="formbold-mb-5">
-        <label for="email" class="formbold-form-label"> Email Address </label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Enter your email"
-          class="formbold-form-input"
-        />
-      </div>
-
-      <div class="formbold-mb-5">
-        <label for="subject" class="formbold-form-label"> Subject </label>
-        <input
+    </form>
           type="text"
           name="subject"
           id="subject"
@@ -139,10 +92,8 @@ function Form() {
 
       <div>
         <button class="formbold-btn">Submit</button>
-      </div>
-    </form>
-  </div>
-</div>
+       </form>
+  
           </div>
         </div>
       </main>

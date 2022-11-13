@@ -35,8 +35,7 @@ export default function Hello() {
     <br />
   </p>
 </>
- <div className={styles.formwrapper}>
-          <div className={styles.formbox}>    
+     
     <div className="example-form example-form_before">
   <div className="example-title">聯絡</div>
   <form
@@ -63,6 +62,54 @@ export default function Hello() {
         placeholder="test@test.com"
        required
       />
+    </div>
+    <div className="form-group">
+      <label>內容</label>
+      <textarea
+        required=""
+        className="form-control"
+        name="內容"
+        pattern="[ab ]+"
+        rows={4}
+        data-valuemissing="Write me a story plz"
+        data-patternmismatch="Plz only a and b characters!"
+        placeholder="Tell me a story!"
+        defaultValue={""}
+       required
+      />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+   <>
+  <p>&nbsp;</p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+</>
+<>
+  <p>&nbsp;</p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+</>
+
+  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
+</div>
+
+        </p>
+      </div>
+    </Layout>
+  );
+}
     </div>
     <div className="form-group">
       <label>內容</label>

@@ -127,6 +127,13 @@ const config = {
     },
       footer: {
         style: 'light',
+        logo: {
+        alt: '雙龍體育',
+        src: 'https://img.ssangyongsports.eu.org/logo2.png',
+        href: '/',
+        width: 160,
+        height: 51,
+      },
         links: [
           {
           title: '體育',

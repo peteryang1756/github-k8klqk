@@ -178,7 +178,7 @@ const config = {
               },
               {
                 label: '聯繫',
-                href: '/',
+                href: '/c',
               },
             ],
           },

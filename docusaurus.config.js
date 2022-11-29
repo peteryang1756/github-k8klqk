@@ -59,6 +59,7 @@ const config = {
         logo: {
           alt: '雙龍體育 Logo',
           src: 'https://img.ssangyongsports.eu.org/logo2.png',
+          srcBlog: 'https://img.ssangyongsports.eu.org/blog.png',
           style: {backgroundColor: 'transparent'},
         },
         items: [

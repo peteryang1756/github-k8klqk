@@ -1,3 +1,4 @@
+
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -59,7 +60,6 @@ const config = {
         logo: {
           alt: '雙龍體育 Logo',
           src: 'https://img.ssangyongsports.eu.org/logo2.png',
-          srcBlog: 'https://img.ssangyongsports.eu.org/blog.png',
           style: {backgroundColor: 'transparent'},
         },
         items: [

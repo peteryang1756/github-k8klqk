@@ -25,7 +25,7 @@ export default function Hero() {
   );
 }
 
-const HeroWrapper = styled(Container)`
+const HeroWrapper 
   display: flex;
   padding-top: 5rem;
   ${media('<=desktop')} {
@@ -35,7 +35,7 @@ const HeroWrapper = styled(Container)`
   }
 `;
 
-const Contents = styled.div`
+const Contents 
   flex: 1;
   max-width: 60rem;
   ${media('<=desktop')} {
@@ -43,11 +43,11 @@ const Contents = styled.div`
   }
 `;
 
-const CustomButtonGroup = styled(ButtonGroup)`
+const CustomButtonGroup 
   margin-top: 4rem;
 `;
 
-const ImageContainer = styled.div`
+const ImageContainer 
   display: flex;
   flex: 1;
   justify-content: flex-end;
@@ -64,7 +64,7 @@ const ImageContainer = styled.div`
   }
 `;
 
-const Description = styled.p`
+const Description 
   font-size: 1.8rem;
   opacity: 0.8;
   line-height: 1.6;
@@ -73,11 +73,11 @@ const Description = styled.p`
   }
 `;
 
-const CustomOverTitle = styled(OverTitle)`
+const CustomOverTitle 
   margin-bottom: 2rem;
 `;
 
-const Heading = styled.h1`
+const Heading 
   font-size: 7.2rem;
   font-weight: bold;
   line-height: 1.1;

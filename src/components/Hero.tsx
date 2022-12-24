@@ -6,6 +6,8 @@ import Layout from '@theme/Layout';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
+export default function Hero() {
+  const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
     <HeroWrapper>
@@ -13,7 +15,14 @@ export default function Hero() {
         <CustomOverTitle>ssangyong sports</CustomOverTitle>
         <Heading>我們的<span style={{ color: "red" }}>使命</span>是將<span style={{ color: "orange" }}>雙龍體育</span>組成<span style={{ color: "green" }}>最棒</span>體育組織</Heading>
         <CustomButtonGroup>
-    
+          <Button onClick={() => setIsModalOpened(true)}>
+            訂閱最新消息 <span>&rarr;</span>
+          </Button>
+        </CustomButtonGroup>
+      </Contents>
+      <ImageContainer>
+        <HeroIllustration />
+      </ImageContainer>
     </HeroWrapper>
   );
 }

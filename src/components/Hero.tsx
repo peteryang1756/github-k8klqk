@@ -6,8 +6,6 @@ import Layout from '@theme/Layout';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
-export default function Hero() {
-  const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
     <HeroWrapper>

@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import styled from 'styled-components';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
@@ -25,7 +26,7 @@ export default function Hero() {
   );
 }
 
-const HeroWrapper 
+const HeroWrapper = styled(Container)`
   display: flex;
   padding-top: 5rem;
   ${media('<=desktop')} {
@@ -35,7 +36,7 @@ const HeroWrapper
   }
 `;
 
-const Contents 
+const Contents = styled.div`
   flex: 1;
   max-width: 60rem;
   ${media('<=desktop')} {
@@ -43,11 +44,11 @@ const Contents
   }
 `;
 
-const CustomButtonGroup 
+const CustomButtonGroup = styled(ButtonGroup)`
   margin-top: 4rem;
 `;
 
-const ImageContainer 
+const ImageContainer = styled.div`
   display: flex;
   flex: 1;
   justify-content: flex-end;
@@ -64,7 +65,7 @@ const ImageContainer
   }
 `;
 
-const Description 
+const Description = styled.p`
   font-size: 1.8rem;
   opacity: 0.8;
   line-height: 1.6;
@@ -73,11 +74,11 @@ const Description
   }
 `;
 
-const CustomOverTitle 
+const CustomOverTitle = styled(OverTitle)`
   margin-bottom: 2rem;
 `;
 
-const Heading 
+const Heading = styled.h1`
   font-size: 7.2rem;
   font-weight: bold;
   line-height: 1.1;

@@ -62,7 +62,7 @@ const ImageContainer = styled.div`
     svg {
       max-width: 80%;
     }
-  }
+  } 
 `;
 
 const Description = styled.p`

@@ -18,12 +18,7 @@ jobs:
           node-version: 18
           cache: yarn
 
-      - name: Install dependencies
-        run: yarn install
-      - name: Build slides
-        run: yarn reveal        
-      - name: Build website
-        run: yarn build
+     
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
